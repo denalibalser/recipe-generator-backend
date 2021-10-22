@@ -7,7 +7,7 @@ Rails.application.config.middleware.insert_before 0, Rack::Cors do
 
     # configuration for deployed version of app:
     allow do
-      origins 'http://localhost:3002' 
+      origins 'http://localhost:3001' 
     #   add FETCH recipe API url AND frontend origin url 
 
       resource '*', 

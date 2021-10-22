@@ -5,6 +5,7 @@ class Api::V1::RecipesController < ApplicationController
     end 
 
     def show 
-    end 
     
+    end 
+
 end
