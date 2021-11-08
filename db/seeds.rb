@@ -7,4 +7,4 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 # TEST SEED:
-recipes = Recipe.create([{title: 'The Best of England Salad', image: 'https://spoonacular.com/recipeImages/663225-312x231.jpg', usedIngredientCount: 3, missedIngredientCount: 5, missedIngredients: ['lemon juice'], usedIngredients: ['tahini']}])
+recipes = Recipe.create([{title: 'The Best of England Salad', image: 'https://spoonacular.com/recipeImages/663225-312x231.jpg', usedIngredientCount: 3, missedIngredientCount: 5, missedIngredients: ['lemon juice'], usedIngredients: ['tahini']}]), Recipe.create([{title: 'The Best of England Salad', image: 'https://spoonacular.com/recipeImages/663225-312x231.jpg', usedIngredientCount: 3, missedIngredientCount: 5, missedIngredients: ['lemon juice'], usedIngredients: ['tahini']}])
