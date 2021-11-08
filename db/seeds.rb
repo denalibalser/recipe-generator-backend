@@ -5,3 +5,5 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+recipes = Recipe.create([{title: 'The Best of England Salad', image: 'https://spoonacular.com/recipeImages/663225-312x231.jpg', usedIngredientCount: 3, missedIngredientCount: 5, missedIngredients: ['lemon juice'], usedIngredients: ['tahini']}])

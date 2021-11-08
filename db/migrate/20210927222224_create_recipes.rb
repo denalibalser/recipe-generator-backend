@@ -8,7 +8,6 @@ class CreateRecipes < ActiveRecord::Migration[6.1]
       t.text :missedIngredients, array: true, default: []
       t.text :usedIngredients, array: true, default: []
 
-
       t.timestamps
     end
   end
